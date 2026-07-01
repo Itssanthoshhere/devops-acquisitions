@@ -49,6 +49,15 @@ Install Arcjet security packages:
 npm i @arcjet/inspect @arcjet/node
 ```
 
+Install testing packages and initialize Jest:
+
+```bash
+npm i jest supertest -D
+npm init jest@latest
+```
+
+The Jest initializer will prompt you to add a `test` script and create a `jest.config.mjs` file. It also adds coverage support by default.
+
 Install `drizzle-kit` (CLI) as a dev dependency and run common DB tasks with `npx` or the provided npm scripts:
 
 ```bash

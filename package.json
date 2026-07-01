@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "imports": {
+    "#src/*": "./src/*",
     "#config/*": "./src/config/*",
     "#controllers/*": "./src/controllers/*",
     "#middleware/*": "./src/middleware/*",
@@ -24,7 +25,8 @@
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "dev:docker": "sh ./scripts/dev.sh",
-    "prod:docker": "sh ./scripts/prod.sh"
+    "prod:docker": "sh ./scripts/prod.sh",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -40,8 +42,10 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "helmet": "^8.2.0",
+    "jest": "^30.4.2",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.11.0",
+    "supertest": "^7.2.2",
     "winston": "^3.19.0",
     "zod": "^4.4.3"
   },
