@@ -49,6 +49,17 @@ Open your browser at:
 http://localhost:3000
 ```
 
+## Code quality
+
+This project includes lint and format scripts for developer workflow:
+
+```bash
+npm run lint       # check JavaScript code for ESLint issues
+npm run lint:fix   # automatically fix fixable ESLint issues
+npm run format     # format code with Prettier
+npm run format:check # verify that code is already formatted
+```
+
 ## Project structure
 
 - `package.json` — npm metadata and scripts
