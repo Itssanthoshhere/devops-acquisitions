@@ -21,7 +21,38 @@ Install ESLint and Prettier as dev dependencies:
 npm install eslint @eslint/js prettier eslint-config-prettier -D
 ```
 
-Then install dependencies for an existing project:
+Install Drizzle and Neon support:
+
+```bash
+npm i @neondatabase/serverless drizzle-orm
+npm i -D drizzle-orm
+```
+
+Install `drizzle-kit` (CLI) as a dev dependency and run common DB tasks with `npx` or the provided npm scripts:
+
+```bash
+# install the CLI (optional but recommended)
+npm install -D drizzle-kit
+
+# generate a SQL migration from your schema/config
+npx drizzle-kit generate
+
+# run pending migrations against the configured database
+npx drizzle-kit migrate
+
+# you can also use the npm scripts shipped in this project:
+npm run db:generate   # runs `drizzle-kit generate`
+npm run db:migrate    # runs `drizzle-kit migrate`
+npm run db:studio     # runs `drizzle-kit studio` (if configured)
+```
+
+Notes about running Drizzle Kit:
+
+- `drizzle-kit generate` reads your `drizzle.config.js` (default) and writes a SQL migration file under `drizzle/` (for example `drizzle/0000_breezy_iron_lad.sql`).
+- `drizzle-kit migrate` runs migrations against the database configured in `drizzle.config.js`. When using the `@neondatabase/serverless` driver you may see a warning that it connects via websocket — this driver can only connect to remote Neon/Vercel Postgres/Supabase instances over websocket connections.
+- If you prefer not to install the CLI, use `npx drizzle-kit <command>` which runs the package on demand.
+
+If you already have a project with dependencies, install them as usual:
 
 ```bash
 npm install
