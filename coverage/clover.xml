@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1782946288602" clover="3.2.0">
-  <project timestamp="1782946288602" name="All files">
-    <metrics statements="914" coveredstatements="322" conditionals="18" coveredconditionals="6" methods="27" coveredmethods="3" elements="959" coveredelements="331" complexity="0" loc="914" ncloc="914" packages="9" files="18" classes="18"/>
+<coverage generated="1782946530831" clover="3.2.0">
+  <project timestamp="1782946530831" name="All files">
+    <metrics statements="941" coveredstatements="329" conditionals="18" coveredconditionals="6" methods="30" coveredmethods="3" elements="989" coveredelements="338" complexity="0" loc="941" ncloc="941" packages="9" files="18" classes="18"/>
     <package name="src">
       <metrics statements="51" coveredstatements="48" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="app.js" path="/Users/sandy/Developer/Projects/devops-acquisitions/src/app.js">
@@ -60,7 +60,7 @@
       </file>
     </package>
     <package name="src.config">
-      <metrics statements="63" coveredstatements="59" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="90" coveredstatements="66" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="arcjet.js" path="/Users/sandy/Developer/Projects/devops-acquisitions/src/config/arcjet.js">
         <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -84,23 +84,50 @@
         <line num="19" count="1" type="stmt"/>
       </file>
       <file name="database.js" path="/Users/sandy/Developer/Projects/devops-acquisitions/src/config/database.js">
-        <metrics statements="16" coveredstatements="12" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="43" coveredstatements="19" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
       </file>
       <file name="logger.js" path="/Users/sandy/Developer/Projects/devops-acquisitions/src/config/logger.js">
         <metrics statements="28" coveredstatements="28" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
