@@ -15,6 +15,12 @@ npm init -y
 npm install express dotenv
 ```
 
+Install ESLint and Prettier as dev dependencies:
+
+```bash
+npm install eslint @eslint/js prettier eslint-config-prettier -D
+```
+
 Then install dependencies for an existing project:
 
 ```bash
