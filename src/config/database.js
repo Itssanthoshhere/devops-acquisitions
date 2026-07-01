@@ -34,10 +34,13 @@ const getDb = () => {
   return dbInstance;
 };
 
-const db = new Proxy({}, {
-  get(_target, prop) {
-    return getDb()[prop];
-  },
-});
+const db = new Proxy(
+  {},
+  {
+    get(_target, prop) {
+      return getDb()[prop];
+    },
+  }
+);
 
 export { db, getDb, getSql };
