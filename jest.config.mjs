@@ -149,9 +149,6 @@ const config = {
   // The test environment that will be used for testing
   testEnvironment: 'node',
 
-  // Treat .js files as ESM so imports like `import app from '#src/app.js'` work
-  extensionsToTreatAsEsm: ['.js'],
-
   // Map the custom `#...` import aliases used by this project
   moduleNameMapper: {
     '^#src/(.*)$': '<rootDir>/src/$1',
