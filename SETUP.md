@@ -37,6 +37,12 @@ npm i cookie-parser helmet
 npm i cookie-parser helmet morgan
 ```
 
+Install authentication and validation packages:
+
+```bash
+npm i jsonwebtoken bcrypt zod
+```
+
 Install `drizzle-kit` (CLI) as a dev dependency and run common DB tasks with `npx` or the provided npm scripts:
 
 ```bash
