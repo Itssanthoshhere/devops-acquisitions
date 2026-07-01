@@ -43,6 +43,12 @@ Install authentication and validation packages:
 npm i jsonwebtoken bcrypt zod
 ```
 
+Install Arcjet security packages:
+
+```bash
+npm i @arcjet/inspect @arcjet/node
+```
+
 Install `drizzle-kit` (CLI) as a dev dependency and run common DB tasks with `npx` or the provided npm scripts:
 
 ```bash

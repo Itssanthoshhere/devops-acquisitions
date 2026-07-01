@@ -56,3 +56,11 @@
 {"level":"info","message":"User santhosh02vs@gmail.com authenticated successfully","service":"acquisitions-api"}
 {"level":"info","message":"User signed in successfully: santhosh02vs@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [01/Jul/2026:21:22:54 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 122 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [01/Jul/2026:21:30:27 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [01/Jul/2026:21:30:27 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User santhosh02vs@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: santhosh02vs@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [01/Jul/2026:21:31:21 +0000] \"POST /api/auth/sign-in?email=santhosh HTTP/1.1\" 200 122 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [01/Jul/2026:21:31:51 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
