@@ -28,6 +28,15 @@ npm i @neondatabase/serverless drizzle-orm
 npm i -D drizzle-orm
 ```
 
+Install logging and middleware packages:
+
+```bash
+npm i winston
+npm i cookie-parser cors
+npm i cookie-parser helmet
+npm i cookie-parser helmet morgan
+```
+
 Install `drizzle-kit` (CLI) as a dev dependency and run common DB tasks with `npx` or the provided npm scripts:
 
 ```bash
